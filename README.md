@@ -1,3 +1,8 @@
+## Works fine, but I need it for Arduino and then Tasmota ##
+
+Did some changes to the prints and disabled degugging. Arduino needs specific compile options, Platform-io works without changes.
+Don't understand how to traverse through all ports of the ds2482-800 up to now.
+
 # DS2482 Library
 
 The DS2482 is an I2C to 1-wire interface chip. It comes in two versions, the DS2482-100 (1-port) and DS2482-800 (8-port). Using an interface chip is helpful because most DS18B20/1-wire libraries use timing sensitive code and may run for extended periods with interrupts disabled. This can cause the rest of your program to have poor performance. 
