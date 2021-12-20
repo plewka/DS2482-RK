@@ -1,7 +1,7 @@
 ## Works fine, but I need it for Arduino and then Tasmota ##
 
-Did some changes to the prints and disabled degugging. Arduino needs specific compile options, Platform-io works without changes.
-Don't understand how to traverse through all ports of the ds2482-800 up to now.
+Have a look at arduino directory. I did some changes to the prints and disabled degugging. Arduino needs specific compile options, Platform-io works without changes.
+I don't understand how to traverse through all ports of the ds2482-800 up to now.
 
 # DS2482 Library
 
